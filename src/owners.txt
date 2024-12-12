@@ -1,0 +1,20 @@
+Emil Forsberg;0762093456
+
+Carolina Fromm;07012341234
+Cat;Mario;Fisk;Ingen;true
+Dog;Zelda;Ris;Ingen;false
+Bird;Bowser;Ärtor;Ingen;false
+
+Danny Yari;07212341234
+Bird;Birdo;Solrosfrön;Ingen;false
+
+Tilde Hv;07312341234
+Cat;Link;Kattfoder;Ingen;true
+
+Robin Öqvist;07612341234
+Cat;Toad;Whiskas;Ingen;false
+
+Johan;0700132123
+Cat;Olof;Öron;Antibiotika;false
+Cat;Olle;Olof;Ärra;false
+
