@@ -39,6 +39,7 @@ public class ReceptionController {
                     break;
                 case "3":
                     listAnimals();
+                    counterForCheckInAnimals();
                     break;
                 case "4":
                     registerOwner();
@@ -249,6 +250,11 @@ public class ReceptionController {
             animalManager.addAnimalFromFactory(newOwner); // Lägg till nytt djur FRÅN FACTORY
             fileHandler.saveOwners(ownerManager.getAllOwners()); // Uppdaterar filen
         }
+    }
+
+    //--------- VG---------
+    public void counterForCheckInAnimals(){
+        animalManager.countCheckedInAnimals(ownerManager.getAllOwners());
     }
 
 }

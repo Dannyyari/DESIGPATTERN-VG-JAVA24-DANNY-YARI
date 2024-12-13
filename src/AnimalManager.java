@@ -137,5 +137,22 @@ public class AnimalManager {
         owner.addAnimal(animal);
         System.out.println("Djuret " + name + " har lagts till hos ägaren " + owner.getName() + ".");
     }
+    //----------- VG DEL----------------
+    public void countCheckedInAnimals(List<Owner> owners) {
+        int checkedInCount = 0;
+
+        // Iterera över alla ägare och deras djur
+        for (Owner owner : owners) {
+            for (Animal animal : owner.getAnimals()) {
+                // Kontrollera om djuret är incheckat
+                if (animal.isCheckedIn()) {
+                    checkedInCount++;
+                }
+            }
+        }
+
+        // Skriv ut antalet incheckade djur
+        System.out.println("Antal incheckade djur: " + checkedInCount);
+    }
 
 }
