@@ -6,7 +6,8 @@ Dog;Zelda;Ris;Ingen;false
 Bird;Bowser;Ärtor;Ingen;false
 
 Danny Yari;07212341234
-Bird;Birdo;Solrosfrön;Ingen;false
+Bird;Birdo;Solrosfrön;Ingen;true
+Cat;Olof;Öron;Antibiotika;true
 
 Tilde Hv;07312341234
 Cat;Link;Kattfoder;Ingen;true
@@ -15,6 +16,10 @@ Robin Öqvist;07612341234
 Cat;Toad;Whiskas;Ingen;false
 
 Johan;0700132123
-Cat;Olof;Öron;Antibiotika;false
-Cat;Olle;Olof;Ärra;false
+Cat;Olle;Olof;Ärra;true
+
+Mauri;070000000
+
+Lotta;0722224444
+Dog;kelb;dentastix;tasssalva;false
 

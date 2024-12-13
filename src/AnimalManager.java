@@ -28,10 +28,10 @@ public class AnimalManager {
         if (animal != null) {
             if (animal.isCheckedIn()) {
                 System.out.println("Djuret " + name + " är redan incheckad.");
-                Toolkit.getDefaultToolkit().beep();
             } else {
                 animal.setCheckedIn(true);
                 System.out.println(name + " har checkats in.");
+                Toolkit.getDefaultToolkit().beep();
                 fileHandler.saveOwners(ownerManager.getAllOwners());
             }
         } else {
