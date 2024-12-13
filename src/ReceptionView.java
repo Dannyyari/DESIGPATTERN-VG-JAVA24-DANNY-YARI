@@ -16,7 +16,7 @@ public class ReceptionView {
         displayMessage("1. Lämna Djur");
         displayMessage("2. Hämta Djur");
         displayMessage("3. Visa Ägare & Djur");
-        displayMessage("4. Registrera Ny Ägare(Tidigare MVC design");
+        displayMessage("4. Registrera Ny Ägare(Tidigare MVC design)");
         displayMessage("5. Byt Ägare");
         displayMessage("6. Information Om Djur");
         displayMessage("7. Registrera Ny ägare (Factory design)");

@@ -1,15 +1,15 @@
 /**
- * Klassen ReceptionController ansvarar för att hantera interaktionen mellan användaren och djurregisteringssystemet.
- * Den styr användarens val genom menyer och kommunicerar med andra klasser (OwnerManager, AnimalManager och FileHandler).
+ * Klassen ReceptionController hanterar interaktionen mellan användaren och djurregisteringssystemet.
+ * Den styr flödet av användarens val via menyer och kommunicerar med andra klasser såsom OwnerManager, AnimalManager och FileHandler.
  *
  * Funktionalitet:
- * - Startar och hanterar huvudmenyn för programmet.
+ * - Startar och hanterar huvudmenyn för användaren.
  * - Möjliggör registrering och borttagning av djur (check-in och check-out).
- * - Möjliggör att visa information om djur och ägare.
+ * - Visar information om djur och deras ägare.
  * - Möjliggör byte av djurägare.
- * - Säkerställer att alla djur är utcheckade innan programmet kan stängas.
- * - Interagerar med en vy (ReceptionView) för att visa meddelanden och få användarens input.
- * - Spara och läs in data till/från filer (FileHandler).
+ * - Säkerställer att alla djur är utcheckade innan programmet stängs.
+ * - Kommunicerar med en vy (ReceptionView) för att visa meddelanden och ta emot användarinput.
+ * - Ansvarar för att spara och läsa data till/från filer via FileHandler.
  */
 
 public class ReceptionController {
